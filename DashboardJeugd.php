@@ -99,7 +99,7 @@
         background-color: #F7C200;
         width: 200px;
         margin-top: 3vh;
-        margin-left: 5vw;
+        margin-left: 4.8vw;
     }
     .left {
         margin-top: 3vw;
