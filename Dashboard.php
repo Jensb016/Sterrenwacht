@@ -16,40 +16,39 @@
     </nav>
     <div class="content">
         <div class="row">
-            <div class="col">
-                <div class="left">
-                <div class="row">
-                    <div class="col">
-                        <img src="https://www.sterrenwachthalley.nl/wp-content/uploads/2019/11/logo-Halley-web-_logo-halley-web-1.svg">
+        <div class="col-md-6 d-md-flex justify-content-md-end d-flex justify-content-center">                <div class="left">
+                    <div class="row">
+                        <div class="col">
+                            <img src="https://www.sterrenwachthalley.nl/wp-content/uploads/2019/11/logo-Halley-web-_logo-halley-web-1.svg">
+                        </div>
+
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="links">
-                            <div class="row">
-                                <div class="col">
-                                    <a href="Dashboard.php">Dashboard</a>
+                    <div class="row"> 
+                        <div class="col">
+                            <div class="links">
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="Dashboard.php">Dashboard</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="DashboardJeugd.php">Dashboard Jeugd</a>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="DashboardJeugd.php">Dashboard Jeugd</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="right">
-                <div class="row">
-                    <div class="col">
-                        <div class="page">
+            <div class="col-md-6 d-md-flex justify-content-md-start d-flex justify-content-center">                <div class="right">
+                    <div class="row">
+                        <div class="col">
+                            <div class="page">
 
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -85,7 +84,7 @@
         height: 200px;
         height: auto;
         display: block;
-        margin: 0 auto;
+        margin: 0;
     }
 
     .page {
@@ -93,20 +92,20 @@
         background-color: white;
         height: 80vh;
         width: 40vw;
+        min-width: 400px;
     }
 
     .links {
         background-color: #F7C200;
         width: 200px;
-        margin-top: 3vh;
-        margin-left: 4.8vw;
+        margin-top: 3vh; 
     }
+
     .left {
-        margin-top: 3vw;
-        margin-left: 20vw;
+        margin-top: 3vw; 
     }
+
     .right {
         margin-top: 3vw;
-        margin-right: 15vw;
     }
 </style>
